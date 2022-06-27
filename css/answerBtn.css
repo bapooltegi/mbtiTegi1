@@ -24,10 +24,6 @@
 .answerBtns button:hover{
     height: 5rem;
     width: 20rem;
-    box-shadow: 6rem 0rem 10rem #FAFBFC,
-    -6rem 0rem 10rem #FAFBFC,
-    6rem 0rem 10rem #FAFBFC,
-    -6rem 0rem 10rem #FAFBFC;
     z-index: 1;
 }
 

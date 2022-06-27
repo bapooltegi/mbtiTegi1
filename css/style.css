@@ -8,9 +8,10 @@
 
 body{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    background-color: #FAFBFC;
-    color:rgb(87, 93, 102);
+    background-color: #312c2d;
+    color:rgba(200, 199, 192, 1);
     font-family: "Fredoka", sans-serif;
 }
 
@@ -20,4 +21,14 @@ body{
     align-items: center;
     margin-top: 2rem;
     height: 16rem;
+}
+
+.mainDesc{
+  text-align: center;
+}
+
+.mainImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
