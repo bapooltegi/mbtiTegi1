@@ -14,27 +14,3 @@
     color:rgb(42, 46, 53);
     padding-bottom: 0.2rem;
 }
-
-.timeLineBar{
-    display:flex;
-    height: 0.15rem;
-    justify-content: space-between;
-    box-shadow: 0rem 1rem 4rem #98b5c0;
-}
-
-#timeLineBar-bg{
-    display: flex;
-    height: 0.15rem;
-    width: 100%;
-    background-color: rgb(230, 234, 238);
-}
-
-#timeLineBar-bg li{
-    display: flex;
-    height: 0.15rem;
-    width: 8.4%;
-    font-size:0rem;
-    background-color: var(--primaryColor);
-    animation-name: widthIncrease;
-    animation-duration: 1s;
-}
