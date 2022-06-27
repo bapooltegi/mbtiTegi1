@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap"); /* 폰트 */
+@import "reset.css"; /* css 리셋 */
+@import "variables.css"; /* CSS 전역변수 */
+@import "header-bar.css"; /*hedaer-bar css */
+@import "questionBox.css"; /* 질문 박스 */
+@import "answerBtn.css"; /* 답변버튼 컴포넌트 */
+@import "animation-list.css"; /* 애니메이션 */
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFBFC;
+    color:rgb(87, 93, 102);
+    font-family: "Fredoka", sans-serif;
+}
+
+.adPosition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 16rem;
+}
